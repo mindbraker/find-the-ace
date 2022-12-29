@@ -507,6 +507,7 @@ function addCardToGridCell(card) {
 }
 
 function mapCardIdToGridCell(card) {
+	console.log(card);
 	if (card.id == 1) {
 		return '.card-pos-a';
 	} else if (card.id == 2) {
